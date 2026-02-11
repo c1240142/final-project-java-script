@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agan Hotel</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+<link rel="stylesheet" href="Hotel.css">
+
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+  <!-- <a href="mailto:Aganhotel22@hotmail.com">Aganhotel22@hotmail.com</a> -->
+  <p></p>
+</div>
+<div class="navmenu">
+  <h2>AGAN INTERNATIONAL <span style="color:red;">Hotel</span></h2>
+  <ul>
+    <li><a href="#Home">Home</a></li>
+    <li><a href="#Book">Book</a></li>
+    <li><a href="#Rooms">Rooms</a></li>
+    <li><a href="#Services">Services</a></li>
+    <li><a href="#Feedback">Feedback</a></li>
+  </ul>`
+</div>
+
+<!-- Home Section -->
+<section class="home" id="Home">
+  <div class="home-content">
+    <h1>Welcome to Our Hotel</h1>
+    <p>Experience luxury, comfort, and unforgettable moments</p>
+    <button class="btn" id="bookBtn">Book Now</button>
+  </div>
+</section>
+
+<!-- Rooms Section -->
+<section class="Rooms" id="Rooms">
+  <h1 class="heading"><span>O</span><span>U</span><span>R</span> <span class="space"></span> <span>R</span><span>O</span><span>O</span><span>M</span><span>S</span></h1>
+  <div class="huge">
+    <div class="rooms"><img src="room5.jpg"><p>Luxury VIP Room</p><div class="btn"><a href="#Book">Book Now</a></div></div>
+    <div class="rooms"><img src="room6.jpg"><p>Royal Suite Room</p><div class="btn"><a href="#Book">Book Now</a></div></div>
+  </div>
+</section>
+
+
+
+<!-- Book Section -->
+<section class="Book" id="Book">
+  <h1 class="heading"><span>B</span><span>o</span><span>o</span><span>k</span> <span class="space"></span><span>N</span><span>o</span><span>w</span></h1>
+  <div class="row">
+    <div class="image">
+      <img src="book1.jpg" alt="">
+    </div>
+    <form id="bookForm">
+      <input type="text" id="fulname" placeholder="Your Full Name" required>
+      <input type="number" placeholder="Number of Guests" required>
+      <input type="date" required>
+      <input type="submit" class="btn" value="Book Now">
+    </form>
+  </div>
+</section>
+
+
+
+<!-- Services Section -->
+<section class="Services" id="Services">
+  <h1 class="heading"><span>O</span><span>U</span><span>R</span> <span class="space"></span><span>S</span><span>E</span><span>R</span><span>V</span><span>I</span><span>C</span><span>E</span><span>S</span></h1>
+  <div class="box-container">
+    <div class="box"><i class="fas fa-bed"></i><h3>Relaxable Rooms</h3><p>Comfortable rooms for a pleasant stay.</p></div>
+    <div class="box"><i class="fas fa-utensils"></i><h3>Food & Drinks</h3><p>Fresh meals and beverages available.</p></div>
+  </div>
+</section>
+
+<!-- Feedback Section -->
+<section class="Feedback" id="Feedback">
+  <h1 class="heading"><span>Y</span><span>O</span><span>U</span> <span class="space"></span><span>F</span><span>E</span><span>E</span><span>D</span><span>B</span><span>A</span><span>C</span><span>K</span></h1>
+  <div class="row">
+    <div class="image"><img src="feedbck.jpg" alt=""></div>
+    <form id="feedbackForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="number" placeholder="Your Phone Number">
+      <textarea placeholder="Your Message" required></textarea>
+      <input type="submit" class="btn" value="Send Message">
+    </form>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer">
+  <p>&copy; 2026 Agan Hotel. All Rights Reserved.</p>
+</footer>
+
+<script src="hotel.js"></script>
+</body>
+</html>
